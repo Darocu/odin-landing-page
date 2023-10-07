@@ -1,0 +1,1 @@
+Creation of a landing page for Odin Project Foundations.
