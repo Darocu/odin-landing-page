@@ -1,0 +1,9 @@
+* {
+    background: white;
+}
+.flex-header {
+    flex: 1 1 auto;
+    background: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8
+}
