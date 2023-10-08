@@ -38,6 +38,7 @@ body {
     justify-content: space-between;
 }
 .hero-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,7 +47,7 @@ body {
     color: #F9FAF8;
 }
 .hero-left {
-    margin: 2em 1em 2em 5em;
+    margin: 2rem 1rem 2rem 5rem;
     width: 40vw;
     display: flex;
     flex-direction: column;
@@ -58,13 +59,13 @@ body {
     border: .15em solid white;
     color: white;
     border-radius: .5em;
-    width: 10em;
-    height: 3em;
-    font-size: 18px;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.125rem;
     text-decoration: none;
 }
 .hero-right {
-    margin: 3em 0;
+    margin: 3rem 0;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -84,8 +85,8 @@ body {
 .information-container img {
     border: .15em solid blue;
     border-radius: .5em;
-    width: 7em;
-    height: 7em;
+    width: 15vw;
+    height: 15vw;
 }
 .information-header {
     width: 60vw;
@@ -118,7 +119,7 @@ body {
 }
 .quote-writer {
     width: 75vw;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -131,9 +132,10 @@ body {
     align-items: center;
     background-color: white;
     color: #F9FAF8;
+    width: 100%;
 }
 .calltoaction-content {
-    margin: 2em 1em 2em 5em;
+    margin: 2rem 1rem 2rem 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -141,32 +143,34 @@ body {
     background-color: #3882F6;
     border-radius: .5em;
     border: .15em solid whitesmoke;
-    width: 40vw;
-    height: 20vw;
+    width: 60vw;
+    height: 20%;
 }
 .calltoaction-left {
     margin: 2em 1em 2em 5em;
-    width: 40vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .calltoaction-right {
-    margin: 3em 0;
+    margin: 2em 1em 2em 5em;
     width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .calltoaction-right button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: #3882F6;
     border: .15em solid white;
     color: white;
     border-radius: .5em;
-    width: 10em;
-    height: 3em;
-    font-size: 18px;
+    width: auto;
+    height: 3rem;
+    font-size: 1.125rem;
     text-decoration: none;
 }
 .footer-bar {
@@ -180,7 +184,7 @@ body {
     border-bottom: .15em solid white;
 }
 .footer-container{
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
