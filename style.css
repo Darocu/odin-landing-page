@@ -1,9 +1,188 @@
-* {
-    background: white;
+html {
+    margin: 0;
+    min-height: 100%;
 }
-.flex-header {
-    flex: 1 1 auto;
-    background: #1F2937;
+body {
+    margin: 0;
+}
+.header-bar {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border-bottom: .15em solid white;
+}
+.header-bar a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.header-left {
+    margin: .75rem 0 .75rem 2rem;
     font-size: 24px;
-    color: #F9FAF8
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right {
+    margin-right: 2rem;
+    width: 40rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.hero-left {
+    margin: 2em 1em 2em 5em;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left button {
+    background-color: #3882F6;
+    border: .15em solid white;
+    color: white;
+    border-radius: .5em;
+    width: 10em;
+    height: 3em;
+    font-size: 18px;
+    text-decoration: none;
+}
+.hero-right {
+    margin: 3em 0;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-right img {
+    width: 35vw;
+}
+.information-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.information-container img {
+    border: .15em solid blue;
+    border-radius: .5em;
+    width: 7em;
+    height: 7em;
+}
+.information-header {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.information-content {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.quote-content {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.quote-writer {
+    width: 75vw;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.calltoaction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #F9FAF8;
+}
+.calltoaction-content {
+    margin: 2em 1em 2em 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: .5em;
+    border: .15em solid whitesmoke;
+    width: 40vw;
+    height: 20vw;
+}
+.calltoaction-left {
+    margin: 2em 1em 2em 5em;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calltoaction-right {
+    margin: 3em 0;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calltoaction-right button {
+    background-color: #3882F6;
+    border: .15em solid white;
+    color: white;
+    border-radius: .5em;
+    width: 10em;
+    height: 3em;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer-bar {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border-bottom: .15em solid white;
+}
+.footer-container{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
