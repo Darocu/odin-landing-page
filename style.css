@@ -4,7 +4,14 @@ html {
 }
 body {
     margin: 0;
+    font-family: 'Roboto', arial;
 }
+button:hover {
+    color: #000;
+    background-color: white;
+    border-color: white;
+}
+/*Header Part*/
 .header-bar {
     width:100%;
     display: flex;
@@ -37,24 +44,23 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+/*Hero Part*/
 .hero-container {
-    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 2rem 5rem 2rem;
 }
 .hero-left {
-    margin: 2rem 3rem 2rem;
-    width: auto;
+    flex-basis: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.hero-left button {
+.hero-left .contact-button {
     width: auto;
     height: auto;
     padding: .5rem;
@@ -65,8 +71,14 @@ body {
     color: white;
     text-decoration: none;
 }
+.hero-left .contact-button:hover {
+    color: black;
+    background-color: white;
+    border-color: #3882F6;
+}
 .hero-right {
-    margin: 2rem 3rem 2rem;
+    flex-basis: 25rem;
+    padding-left: 3rem;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -75,6 +87,7 @@ body {
 .hero-right img {
     width: 35vw;
 }
+/*Information Part*/
 .information-container {
     display: flex;
     flex-direction: column;
@@ -104,6 +117,7 @@ body {
     justify-content: space-around;
     text-align: center;
 }
+/* Quote Part */
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -128,6 +142,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
 }
+/* Call to Action Part */
 .calltoaction-container {
     display: flex;
     flex-direction: row;
@@ -140,31 +155,27 @@ body {
     border: .15em solid whitesmoke;
     border-radius: .5em;
     width: auto;
-    margin: 5rem;
+    margin: 3.125rem 12.5rem;
+    padding: .625rem 5rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
     background-color: #3882F6;
 }
 .calltoaction-left {
-    margin: 2em 2em 2em;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.calltoaction-left p {
-    width: 25rem;
+    text-align: left;
+    padding-right: 2.5rem;
 }
 .calltoaction-right {
-    margin: 2em 2em 2em;
     width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.calltoaction-right button {
+.calltoaction-right .coffee-button {
     width: auto;
     height: auto;
     padding: .5rem;
@@ -178,8 +189,13 @@ body {
     color: white;
     text-decoration: none;
 }
+.calltoaction-right .coffee-button:hover{
+    color: black;
+    background-color: white;
+    border-color: #3882F6;
+}
+/*Footer Part*/
 .footer-bar {
-    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
